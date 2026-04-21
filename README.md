@@ -17,10 +17,9 @@ It supports basic operations such as:
 - File creation
 - File reading and writing
 - File deletion
-- Viewing file information
+- Listing file details (basic information)
 - Command help system
-
-  All data is stored in memory using dynamic memory allocation (RAM-based system).
+All data is stored in memory using dynamic memory allocation (RAM-based system).
 ---
 
 ## Objectives
@@ -29,7 +28,7 @@ It supports basic operations such as:
 - Implement inode-based file management
 - Simulate file operations
 - Learn system programming concepts
-- Improves data structures knowledge
+- Strengthen data structures knowledge
 
 ---
 
