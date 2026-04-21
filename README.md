@@ -45,10 +45,11 @@ It supports basic operations such as:
 
 ---
 
-System Architecture
+## 🏗️ System Architecture
 
 The Linux-Inspired Virtual File System is structured into multiple layers that simulate how a real file system works internally.
 
+```
 User Commands (CLI)
         |
         v
@@ -81,6 +82,7 @@ User Commands (CLI)
 |     Data Buffer      |
 | (Actual File Data)   |
 +----------------------+
+```
 
 ---
 
