@@ -168,6 +168,6 @@ Linux-Inspired VFS : > ls
 
 👨‍💻 Author
 
-- Tejas Pradip Sutar
+Tejas Pradip Sutar
 
 
