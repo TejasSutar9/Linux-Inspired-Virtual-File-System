@@ -20,7 +20,7 @@ It supports basic operations such as:
 - Viewing file information
 - Command help system
 
-All data is stored in memory using dynamic memory allocation (RAM-based system).
+  All data is stored in memory using dynamic memory allocation (RAM-based system).
 ---
 
 ## Objectives
