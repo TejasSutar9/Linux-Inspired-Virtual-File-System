@@ -119,18 +119,26 @@ g++ linux_inspired_vfs.cpp -o vfs
 
 ## 📸 Sample Execution
 
+```
 Linux-Inspired VFS : > creat file1 3  
-File gets successfully created with FD 3  
+File gets successfully created with FD 3
+```  
 
+```
 Linux-Inspired VFS : > write 3  
 Enter the data that you want to write :  
-Hello World  
+Hello World
+```
 
+```
 Linux-Inspired VFS : > read 3 5  
-Data from file is : Hello  
+Data from file is : Hello
+```
 
+```
 Linux-Inspired VFS : > ls  
-1    file1    11  
+1    file1    11
+``` 
 
 ---
 
