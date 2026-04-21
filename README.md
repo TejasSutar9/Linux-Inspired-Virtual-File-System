@@ -9,7 +9,7 @@ This project demonstrates how file systems work internally by using data structu
 
 ---
 
-## Project Overview
+## 📌Project Overview
 
 This project is a command-line based Linux-inspired Virtual File System that simulates how a real file system works.
 
@@ -22,7 +22,7 @@ It supports basic operations such as:
 All data is stored in memory using dynamic memory allocation (RAM-based system).
 ---
 
-## Objectives
+## 🎯 Objectives
 
 - Understand Linux File System Architecture
 - Implement inode-based file management
@@ -32,7 +32,7 @@ All data is stored in memory using dynamic memory allocation (RAM-based system).
 
 ---
 
-## Technologies Used
+## ⚙️ Technologies Used
 
 | Technology                   | Purpose                     |
 |------------------------------|-----------------------------|
@@ -85,7 +85,7 @@ User Commands (CLI)
 
 ---
 
-## Supported Commands
+## 📜 Supported Commands
 
 | Command                          | Description                  |
 |----------------------------------|------------------------------|
@@ -98,3 +98,67 @@ User Commands (CLI)
 | help                             | Show all commands            |
 | clear                            | Clear the terminal           |
 | exit                             | Exit the system              |
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone the repository
+git clone https://github.com/your-username/linux-inspired-vfs.git
+
+### 2. Navigate to project folder
+cd linux-inspired-vfs
+
+### 3. Compile the code
+g++ linux_inspired_vfs.cpp -o vfs
+
+### 4. Run the program
+./vfs
+
+---
+
+## 📸 Sample Execution
+
+Linux-Inspired VFS : > creat file1 3  
+File gets successfully created with FD 3  
+
+Linux-Inspired VFS : > write 3  
+Enter the data that you want to write :  
+Hello World  
+
+Linux-Inspired VFS : > read 3 5  
+Data from file is : Hello  
+
+Linux-Inspired VFS : > ls  
+1    file1    11  
+
+---
+
+## ⚠️ Limitations 
+- Data is stored only in RAM, so it is lost after program exits
+- Limited number of files due to fixed inode count (MAXINODE)
+- No directory structure (all files are in a single level)
+- Only basic read/write permissions, no advanced access control
+
+---
+
+## 🔮 Future Enhancements
+- Implement file persistence (store data permanently on disk)
+- Add directory structure for better file organization (folders & hierarchy)
+- Introduce open and close operations for realistic file handling
+- Enhance permission system with execute access and better control
+
+---
+
+## 📚 Learning Outcomes
+- Gained understanding of how a Linux-like file system works internally
+- Learned implementation of inode-based file management
+- Understood the concept of file descriptors and file tables
+- Improved knowledge of data structures (linked list for inode management)
+
+---
+
+👨‍💻 Author
+Tejas Pradip Sutar
+
+
