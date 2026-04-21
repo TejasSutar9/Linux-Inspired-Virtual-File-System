@@ -1,7 +1,7 @@
 A virtual file system built in C++, inspired by Linux, showcasing inode structure and file descriptor handling.
 
 
-# Linux-Inspired Virtual File System
+## 📂 Linux Inspired Virtual File System
 
 A Linux-inspired Virtual File System implemented in C++ that simulates core file system operations such as file creation, deletion, reading, and writing using inode-based architecture.
 
